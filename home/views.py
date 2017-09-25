@@ -19,3 +19,6 @@ def home_site(request):
             success = True
 
     return render(request, 'index.html', {'form': form, 'success': success})
+
+def privacy_site(request):
+    return render(request, 'privacy.html', {})
